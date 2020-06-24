@@ -57,7 +57,7 @@ rules:
   # Consider using a `--virtual` or `-t` switch to group multiple packages
   # for easy cleanup.  This will help ensure future authors will continue
   # to clean up build dependencies and other temporary packages
-  apkadd-missing-virtual: on
+  apkadd-missing-virtual: off
 
   # Exposing ports should only be valid port numbers
   invalid_port: on
